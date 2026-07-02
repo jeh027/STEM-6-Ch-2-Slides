@@ -98,16 +98,16 @@ body { margin:0; background:#071a2b; }
 
 .question-slide { background-position:center!important; background-size:cover!important; }
 .question-slide.warm {
-  background-image:linear-gradient(110deg,#082f28e8 0 49.7%,#604018d8 50.3%),url('/assets/slide-02-image-01.png')!important;
+  background-image:linear-gradient(110deg,#082f28e8 0 49.7%,#604018d8 50.3%),url('./public/assets/slide-02-image-01.png')!important;
 }
 .question-slide.cold {
-  background-image:linear-gradient(110deg,#19384de8 0 49.7%,#6a451edb 50.3%),url('/assets/slide-02-image-04.png')!important;
+  background-image:linear-gradient(110deg,#19384de8 0 49.7%,#6a451edb 50.3%),url('./public/assets/slide-02-image-04.png')!important;
 }
 .question-slide.jungle {
-  background-image:linear-gradient(110deg,#073b29e8 0 49.7%,#316b29d8 50.3%),url('/assets/slide-09-image-01.png')!important;
+  background-image:linear-gradient(110deg,#073b29e8 0 49.7%,#316b29d8 50.3%),url('./public/assets/slide-09-image-01.png')!important;
 }
 .question-slide.frost {
-  background-image:linear-gradient(110deg,#17394ee8 0 49.7%,#537d98dc 50.3%),url('/assets/slide-09-image-04.png')!important;
+  background-image:linear-gradient(110deg,#17394ee8 0 49.7%,#537d98dc 50.3%),url('./public/assets/slide-09-image-04.png')!important;
 }
 .question-slide h2 { display:inline-block; padding:22px 28px; margin-left:-28px; border-radius:22px; background:#071d20a8; backdrop-filter:blur(4px); }
 .question-slide .round { display:inline-block; padding:10px 17px; border-radius:999px; background:#f7f1cde8; color:#24442f; }

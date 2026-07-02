@@ -1,4 +1,4 @@
-import Reveal from '/node_modules/reveal.js/dist/reveal.esm.js';
+import Reveal from 'https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.esm.js';
 
 document.querySelectorAll('.reveal .slides > section').forEach((slide, slideIndex) => {
   const ambience = document.createElement('div');
@@ -69,7 +69,7 @@ function makeCard(habitat) {
   card.draggable = true;
   card.dataset.category = habitat.category;
   card.dataset.name = habitat.name;
-  card.innerHTML = `<img src="/assets/${habitat.image}" alt=""><span>${habitat.name}</span>`;
+  card.innerHTML = `<img src="./public/assets/${habitat.image}" alt=""><span>${habitat.name}</span>`;
   card.addEventListener('click', event => {
     event.stopPropagation();
     selectCard(card);
