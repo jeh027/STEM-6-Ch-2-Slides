@@ -1,0 +1,13 @@
+{
+  "name": "stem-6-biomes-reveal-deck",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}
